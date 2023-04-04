@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>堺-记录</title>
+  <title>Jungezi</title>
   
-  
+  <subtitle>SAKAIST - Jungezi</subtitle>
   <link href="https://jungezi.github.io/atom.xml" rel="self"/>
   
   <link href="https://jungezi.github.io/"/>
-  <updated>2023-04-04T04:00:39.782Z</updated>
+  <updated>2023-04-04T12:28:54.417Z</updated>
   <id>https://jungezi.github.io/</id>
   
   <author>
@@ -18,46 +18,26 @@
   
   <entry>
     <title>Vivan酱 信息记录</title>
-    <link href="https://jungezi.github.io/2023/04/04/vivan/"/>
-    <id>https://jungezi.github.io/2023/04/04/vivan/</id>
-    <published>2023-04-04T03:32:58.000Z</published>
-    <updated>2023-04-04T04:00:39.782Z</updated>
+    <link href="https://jungezi.github.io/2023/03/17/vivan/"/>
+    <id>https://jungezi.github.io/2023/03/17/vivan/</id>
+    <published>2023-03-17T03:32:58.000Z</published>
+    <updated>2023-04-04T12:28:54.417Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;记录一些 &lt;strong&gt;Vivan酱&lt;/strong&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;官方情报&quot;&gt;&lt;a href=&quot;#官方情报&quot; class=&quot;headerlink&quot; title=&quot;官方情报&quot;&gt;&lt;/a&gt;官方情报&lt;/h1&gt;&lt;img</summary>
         
       
     
     
+    
+    <category term="堺雅人" scheme="https://jungezi.github.io/categories/%E5%A0%BA%E9%9B%85%E4%BA%BA/"/>
     
     
     <category term="Vivant" scheme="https://jungezi.github.io/tags/Vivant/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://jungezi.github.io/2023/04/04/hello-world/"/>
-    <id>https://jungezi.github.io/2023/04/04/hello-world/</id>
-    <published>2023-04-04T03:17:15.300Z</published>
-    <updated>2023-04-04T03:17:15.300Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   

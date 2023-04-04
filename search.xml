@@ -5,11 +5,17 @@
     
     <entry>
       <title>Vivan酱 信息记录</title>
-      <link href="/2023/04/04/vivan/"/>
-      <url>/2023/04/04/vivan/</url>
+      <link href="/2023/03/17/vivan/"/>
+      <url>/2023/03/17/vivan/</url>
       
-        <content type="html"><![CDATA[<ul><li>记录一些 <strong>Vivan酱</strong> 的信息</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="官方情报"><a href="#官方情报" class="headerlink" title="官方情报"></a>官方情报</h1><img src="https://cdn.jsdelivr.net/gh/Jungezi/wwwImage@main/img/vivan_chan_inf0.jpg" alt="Vivan酱" style="zoom: 33%;" /><h2 id="VIVAN酱"><a href="#VIVAN酱" class="headerlink" title="VIVAN酱"></a>VIVAN酱</h2><blockquote><p>日曜剧场《VIVANT》公式角色</p><p>愚人节突然劫持社交平台的凶手</p><p>制作团队的一员，每天在拍摄现场露面</p><p>VIVANT团队的治愈担当</p><p>尽管驼背，但很有干劲</p><p>大概是猫</p></blockquote><ul><li><code>2023.4.1</code>愚人节</li></ul><img src="https://cdn.jsdelivr.net/gh/Jungezi/wwwImage@main/img/vivan_chan_inf2.jpg" alt="愚人节快乐" style="zoom:25%;" /><h1 id="工作人员"><a href="#工作人员" class="headerlink" title="工作人员"></a>工作人员</h1><ul><li><code>首次登场！</code> 来自于 TBS演出部 <strong>宫崎洋平</strong> 的 Twitter</li></ul><img src="https://cdn.jsdelivr.net/gh/Jungezi/wwwImage@main/img/vivan_chan_inf6.jpg" alt="宣传片二维码" style="zoom:15%;" /><ul><li>随后不断在其他人员的社交账号中出现~</li></ul><img src="https://cdn.jsdelivr.net/gh/Jungezi/wwwImage@main/img/vivan_chan_inf7.jpg" style="zoom:15%;" /><img src="https://cdn.jsdelivr.net/gh/Jungezi/wwwImage@main/img/vivan_chan_inf1.jpg" style="zoom:15%;" /><img src="https://cdn.jsdelivr.net/gh/Jungezi/wwwImage@main/img/vivan_chan_inf4.jpg" style="zoom:15%;" /><ul><li><p><code>节目广告！</code> 在 TBS 的节目中，作为软广告(?)出现，虽然根本没有人注意到……</p><img src="https://cdn.jsdelivr.net/gh/Jungezi/wwwImage@main/img/vivan_chan_inf5.jpg" alt="オオカミ少年230324 【タイムスリップTV】前半戦！00:04:00" style="zoom: 33%;" /></li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> 堺雅人 </category>
+          
+      </categories>
       
       
         <tags>
@@ -17,19 +23,6 @@
             <tag> Vivant </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2023/04/04/hello-world/"/>
-      <url>/2023/04/04/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
