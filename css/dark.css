@@ -8,8 +8,19 @@
     color: #4c4948;
 }
 
+body.DarkMode .top-scroll .btn-floating{
+    background: linear-gradient(to bottom, #2c8754 0%, #0f7f55 100%);
+}
+
+
+
+
 /* 背景颜色变灰色 */
 .dark tbody,
+
+body.DarkMode .center-caption,
+body.DarkMode #artDetail .reprint-info,     /* 自加 */
+
 body.DarkMode #artDetail .post-info .post-date,
 body.DarkMode #info_user_pool .moments_chart,
 body.DarkMode .bg-cover .post-title,
@@ -54,10 +65,10 @@ body.DarkMode h2,
 body.DarkMode h3,
 body.DarkMode h4,
 body.DarkMode h5,
-body.DarkMode h6,
+body.DarkMode h6,/*
 body.DarkMode header .side-nav .menu-list a,
-body.DarkMode header .side-nav .mobile-head .logo-desc,
-body.DarkMode header .side-nav .mobile-head .logo-name,
+ body.DarkMode header .side-nav .mobile-head .logo-desc,
+body.DarkMode header .side-nav .mobile-head .logo-name,*/
 body.DarkMode li,
 body.DarkMode td,
 body.DarkMode p,
@@ -77,9 +88,9 @@ body.DarkMode blockquote {
     border-left: 5px solid #42b983 !important;
     color: rgba(255, 255, 255, 0.6);
 }
-body.DarkMode .nav-menu li .sub-nav li a {
+/* body.DarkMode .nav-menu li .sub-nav li a {
     color: rgba(255, 255, 255, 0.6) !important;
-}
+} */
 body.DarkMode th td li {
     color: rgba(255, 255, 255, 0.6) !important;
     background-color: #2f3742 !important;
@@ -87,19 +98,20 @@ body.DarkMode th td li {
 body.DarkMode .prev-next .article-badge {
     background-color: rgba(255, 255, 255, 0.6);
 }
-body.DarkMode header .side-nav .menu-list a {
+/*
+ body.DarkMode header .side-nav .menu-list a {
     color: rgba(255, 255, 255, 0.6) !important;
-}
+} 
 
-body.DarkMode .mobile-menu-list a i {
+ body.DarkMode .mobile-menu-list a i {
     color: rgba(255, 255, 255, 0.6) !important;
-}
+} */
 body.DarkMode .bg-color {
-    background-image:linear-gradient(to right, #3b3b3b 0, rgb(59 59 59) 100%);
+    background-image:linear-gradient(to right, #127fb3 0, #12477d 100%);
     opacity:.8
 }
 body.DarkMode .progress-bar {
-    background: linear-gradient(to right, #bf7030 0%, #dfc60d 100%);
+    background: linear-gradient(to right, #127fb3 0%, #12477d 100%);
 }
 body.DarkMode span.bg-color {
     background-image:linear-gradient(to right, #282c34 0, rgba(52,50,50,0.7) 100%)
@@ -125,8 +137,8 @@ body.DarkMode .tag_share .chip,
 body.DarkMode .archive-container,
 body.DarkMode .modal,
 body.DarkMode .v[data-class="v"] .vcount,
-body.DarkMode header .side-nav,
-body.DarkMode header .side-nav .menu-list .m-nav-show {
+body.DarkMode header .side-nav/*,
+body.DarkMode header .side-nav .menu-list .m-nav-show*/ {
     filter: invert(0.8);
 }
 body.DarkMode .waline-card .comment_headling span {
@@ -237,8 +249,12 @@ body.DarkMode #sources_container,
 body.DarkMode #map_container {
     filter: invert(1);
 }
-body.DarkMode header .brand-logo .logo-img {
-    display: none;
+/* 黑暗主题 logo展示*/
+/*body.DarkMode header .brand-logo .logo-img {
+     display: none; 
+} */
+body.DarkMode header .side-nav .mobile-head{
+    filter: invert(1);
 }
 
 .DarkMode #readmode, 

@@ -46,6 +46,7 @@ h1 {
     font-size: 2.0rem;
     font-weight: bold;
     line-height: 2.0rem;
+    text-align: center;
 }
 
 h2 {
@@ -53,6 +54,7 @@ h2 {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8rem;
+    text-align: center;
 }
 
 h3 {
@@ -125,7 +127,7 @@ code {
     top: 13px !important;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
     font-size: 0.91rem;
-    color: #e96900;
+    color: #2146a3;
     background-color: #f8f8f8;
     border-radius: 2px;
 }
@@ -241,11 +243,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #30bfb3 0%, #0f589d 100%);
+    background-image: linear-gradient(to right, #30bfb3 0%, #2c78be 100%);
 }
 
 .text-color {
-    color: #0f589d !important;
+    color: #2c78be !important;
 }
 
 .white-color {
@@ -257,7 +259,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #30bfb3 0%, #0f589d 100%);
+    background: linear-gradient(to right, #30bfb3 0%, #2c78be 100%);
     opacity: 0.8;
 }
 
@@ -1325,7 +1327,7 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #30bfb3 0%, #0f589d 100%) !important;
+    background: linear-gradient(to right, #30bfb3 0%, #2c78be 100%) !important;
 }
 
 .chip .tag-length {
@@ -1401,7 +1403,7 @@ thead {
     left: 18px;
     height: 100%;
     width: 4px;
-    background: #0f589d;
+    background: #2c78be;
 }
 
 @media only screen and (min-width: 900px) {
@@ -1637,8 +1639,8 @@ thead {
     margin: 0 0.5rem;
     padding: 0;
     color: #fff;
-    border: 1px solid #0f589d;
-    background: radial-gradient(#30bfb3, #0f589d);
+    border: 1px solid #3b95ea;
+    background: radial-gradient(#30bfb3, #3b95ea);
     font-size: 0.9rem;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
@@ -1814,7 +1816,7 @@ thead {
 
 .other-skills .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #30bfb3 0%, #0f589d 100%);
+    background: linear-gradient(to right, #30bfb3 0%, #2c78be 100%);
     border: 1px solid #30bfb3;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
 }
@@ -1899,7 +1901,7 @@ p.search-result-summary{
     padding: 1px 5px 1px 4px;
     border-radius: 2px;
     background-color: #f2f2f2;
-    color: #e96900;
+    color: #00e980;
     font-style: normal;
     white-space: pre-wrap;
 }
@@ -1916,7 +1918,7 @@ p.search-result-summary{
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #3afff5 0%, #2a8aff 100%);
+    background: linear-gradient(to bottom, #3affba 0%, #2aff7c 100%);
     width: 48px;
     height: 48px;
 }
