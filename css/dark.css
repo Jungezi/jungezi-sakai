@@ -12,6 +12,9 @@ body.DarkMode .top-scroll .btn-floating{
     background: linear-gradient(to bottom, #2c8754 0%, #0f7f55 100%);
 }
 
+body.DarkMode .nav-menu li .sub-nav li a span{
+    filter:invert(0.8);
+}
 
 
 

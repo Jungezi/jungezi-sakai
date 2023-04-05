@@ -243,11 +243,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #30bfb3 0%, #2c78be 100%);
+    background-image: linear-gradient(to right, #30bfb3 0%, #5aa1e3 100%);
 }
 
 .text-color {
-    color: #2c78be !important;
+    color: #5aa1e3 !important;
 }
 
 .white-color {
@@ -259,7 +259,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #30bfb3 0%, #2c78be 100%);
+    background: linear-gradient(to right, #30bfb3 0%, #5aa1e3 100%);
     opacity: 0.8;
 }
 
@@ -1327,7 +1327,7 @@ thead {
 
 .chip-container .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #30bfb3 0%, #2c78be 100%) !important;
+    background: linear-gradient(to right, #30bfb3 0%, #5aa1e3 100%) !important;
 }
 
 .chip .tag-length {
@@ -1403,7 +1403,7 @@ thead {
     left: 18px;
     height: 100%;
     width: 4px;
-    background: #2c78be;
+    background: #5aa1e3;
 }
 
 @media only screen and (min-width: 900px) {
@@ -1816,7 +1816,7 @@ thead {
 
 .other-skills .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #30bfb3 0%, #2c78be 100%);
+    background: linear-gradient(to right, #30bfb3 0%, #5aa1e3 100%);
     border: 1px solid #30bfb3;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
 }
@@ -1918,7 +1918,7 @@ p.search-result-summary{
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom, #3affba 0%, #2aff7c 100%);
+    background: linear-gradient(to bottom, #16945b 0%, #16763e 100%);
     width: 48px;
     height: 48px;
 }
