@@ -246,6 +246,7 @@ mark {
     background-image: linear-gradient(to right, #30bfb3 0%, #5aa1e3 100%);
 }
 
+
 .text-color {
     color: #5aa1e3 !important;
 }
@@ -955,6 +956,33 @@ article .article-tags .chip {
     color: #fff;
     border-radius: 10px;
 }
+
+.update-time{       /* 最近更新 时间样式*/
+    display: inline-block;
+    background-image: linear-gradient(to right, #b6deda 0%, #93b6c1 100%);
+    opacity: 0.5;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    color: #000;
+    font-weight: bold;
+
+    margin: 8px;
+    height: 30px;
+    line-height: 10px;
+    padding: 10px;
+}
+
+.update-word{       /* 最近更新 提示样式*/
+    display: inline-block;
+    border: ridge;
+    border-radius: 5px; 
+    margin: 2px;
+
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 
 .prev-next {
     margin-left: -0.75rem;

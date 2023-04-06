@@ -99,7 +99,7 @@ body.DarkMode th td li {
     background-color: #2f3742 !important;
 }
 body.DarkMode .prev-next .article-badge {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgb(136 136 136 / 60%);
 }
 /*
  body.DarkMode header .side-nav .menu-list a {
@@ -119,7 +119,13 @@ body.DarkMode .progress-bar {
 body.DarkMode span.bg-color {
     background-image:linear-gradient(to right, #282c34 0, rgba(52,50,50,0.7) 100%)
 }
-
+body.DarkMode .update-time{
+    background-image: linear-gradient(to right, #526765 0%, #3d6785 100%);
+    color: #fff;
+}
+body.DarkMode .update-word{
+    border-width: thin;
+}
 /* 背景颜色变黑色 */
 /* body.DarkMode #rewardModal .modal-content, */
 body.DarkMode #reward .reward-link,
