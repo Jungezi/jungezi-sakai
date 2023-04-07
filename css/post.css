@@ -20,8 +20,8 @@
     top: 64px;
 }
 
-.toc-widget {
-    width: 345px;
+.toc-widget {       /* 宽度在my里*/
+    /* width: 345px; */
     padding-left: 20px;
 }
 
