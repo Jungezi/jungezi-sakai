@@ -147,7 +147,7 @@
       </li>
       
       <li>
-        <a href="/2023/04/07/vivant-timneline">
+        <a href="/2023/04/07/vivant-timeline">
           
           <i class="fas fa-timeline" style="margin-top: -20px; zoom: 0.6;"></i>
           
@@ -296,7 +296,7 @@
               
                 <li>
 
-                  <a href="/2023/04/07/vivant-timneline " style="margin-left:75px">
+                  <a href="/2023/04/07/vivant-timeline " style="margin-left:75px">
 				  
 				   <i class="fa fas fa-timeline" style="position: absolute;left:50px" ></i>
 			      
@@ -355,7 +355,8 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/vivant_teaser0227_4.png')">
+<!-- <div class="bg-cover pd-header post-cover" style="background-image: url('https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/vivant_teaser0227_4.png')"> -->
+<div class="bg-cover pd-header post-cover">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -645,7 +646,7 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/04/07/vivant-timneline/">
+                <a href="/2023/04/07/vivant-timeline/">
                     <div class="card-image">
                         
                         
@@ -781,7 +782,8 @@
     <!-- <div id="toc-aside" class="expanded col l3 hide-on-med-and-down"> -->
     <div id="toc-aside" class="expanded col l3">
     <!-- <div id="toc-aside"> -->
-        <div class="toc-widget card" style="background-color: white;">
+        <!-- <div class="toc-widget card" style="background-color: white;"> -->
+        <div id="toc-widget-card" class="toc-widget card" >
             <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
             <div id="toc-content"></div>
         </div>
@@ -805,7 +807,7 @@
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('4'),
+            collapseDepth: Number('2'),
             headingSelector: 'h1, h2, h3, h4'
         });
 
@@ -823,7 +825,11 @@
         });
         
 
+
         
+            
+
+
         /* 修复文章卡片 div 的宽度. */
         let fixPostCardWidth = function (srcId, targetId) {
             let srcDiv = $('#' + srcId);
@@ -843,11 +849,19 @@
             }
             $('#' + targetId).width(w);
         };
-
+        
         // 切换TOC目录展开收缩的相关操作.
         const expandedClass = 'expanded';
         let $tocAside = $('#toc-aside');
         let $mainContent = $('#main-content');
+
+
+        if($(window).width()<993){
+            
+            $tocAside.removeClass(expandedClass).hide();
+            $mainContent.removeClass('l9');
+        }
+
         $('#floating-toc-btn .btn-floating').click(function () {
             if ($tocAside.hasClass(expandedClass)) {
                 $tocAside.removeClass(expandedClass).hide();

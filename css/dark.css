@@ -101,6 +101,8 @@ body.DarkMode th td li {
 body.DarkMode .prev-next .article-badge {
     background-color: rgb(136 136 136 / 60%);
 }
+
+
 /*
  body.DarkMode header .side-nav .menu-list a {
     color: rgba(255, 255, 255, 0.6) !important;
@@ -141,7 +143,7 @@ body.DarkMode #waline .wl-footer .wl-action svg,
 body.DarkMode #waline .wl-reply svg,
 body.DarkMode #waline .wl-info span,
 body.DarkMode #waline .wl-info div,
-body.DarkMode .toc-widget,
+/* body.DarkMode .toc-widget, */
 body.DarkMode .tag_share .chip,
 body.DarkMode .archive-container,
 body.DarkMode .modal,
@@ -300,12 +302,12 @@ body.DarkMode header .side-nav .mobile-head{
     -webkit-filter: brightness(0.8) !important;
     filter: brightness(0.8) !important;
 }
-body.DarkMode .toc-widget .toc-list-item {
+/* body.DarkMode .toc-widget .toc-list-item {
     color:#000
-}
-body.DarkMode .toc-title {
+} */
+/* body.DarkMode .toc-title {
     color:#666 !important
-}
+} */
 /*toc目录滤镜*/
 body.DarkMode .skillbar .skill-bar-percent {
     color: #000;

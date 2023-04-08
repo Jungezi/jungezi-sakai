@@ -33,11 +33,14 @@
         left: auto;
         right: auto;
         position: absolute;
-        opacity: 0.95;
+        opacity: 0.9;
     }
     .toc-widget {
         width: 300px;
         padding-left: 20px;
+    }
+    body.DarkMode #toc-widget-card{
+        background-color: #374050;
     }
 }
 
@@ -48,11 +51,14 @@
         left: auto;
         right: auto;
         position: absolute;
-        opacity: 0.95;
+        opacity: 0.9;
     }
     .toc-widget {
         width: 345px;
         padding-left: 20px;
+    }
+    body.DarkMode #toc-widget-card{
+        background-color: #374050;
     }
 }
 
@@ -62,4 +68,9 @@
         width: 345px;
         padding-left: 20px;
     }
+}
+
+body.DarkMode #toc-content .toc-link:hover,
+body.DarkMode #toc-content .is-active-link {
+    color: #7bb5d1;
 }
