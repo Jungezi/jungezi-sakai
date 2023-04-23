@@ -74,3 +74,11 @@ body.DarkMode #toc-content .toc-link:hover,
 body.DarkMode #toc-content .is-active-link {
     color: #7bb5d1;
 }
+
+details {
+    border: 1px solid rgb(164 202 255);
+    padding: 0.5%;
+    border-radius: 5px;
+    background-color: rgb(205 226 255 / 30%);
+    padding-left: 1.5%;
+}
