@@ -749,15 +749,17 @@
                 
                     
                         <span class="update-word"><i class="fa-solid fa-newspaper"></i> 博客</span>
-                        急急急！我现在真的急急急！！！
-                        <br>
-                    
-                        <span class="update-word"><i class="fa-solid fa-newspaper"></i> 博客</span>
                         第一个片段放出 ！！《VIVANT 拍摄宣发时间线》和《VIVANT 拍摄相关》添加今日宣发内容
                         <br>
                     
                 
 
+                
+                    
+                        <span  class="update-word"><i class="fa-solid fa-hammer"></i> 功能</span>
+                        在首页、《VIVANT 拍摄相关》、《VIVANT酱 信息记录》中可以播放VIVANT相关视频了
+                        <br>
+                    
                 
                 <br>
             
@@ -801,25 +803,6 @@
                 
                 <br>
             
-                
-                    <span class="update-time">2023/04/20</span>
-                    <br>
-                
-                
-                    
-                        <span class="update-word"><i class="fa-solid fa-newspaper"></i> 博客</span>
-                        《VIVANT 拍摄宣发时间线》和《VIVANT 拍摄相关》添加今日官推内容及翻译
-                        <br>
-                    
-                        <span class="update-word"><i class="fa-solid fa-newspaper"></i> 博客</span>
-                        《资源汇总》添加《文·堺雅人》电子版插图合集的资源分享
-                        <br>
-                    
-                
-
-                
-                <br>
-            
         </div>
     </div>
 </div>
@@ -827,6 +810,44 @@
                     
 
                     
+
+                    
+                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
+    
+    <div class="title center-align">
+        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;VIVANT预告
+    </div>
+    
+    <div class="row">
+		
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video"
+                    ></div>
+        </div>
+		
+    </div>
+</div>
+
+<script src="/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'false' === 'true',
+            theme: '#42b983',
+            loop: 'false' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: '/%5Cradio%5Cvivant_teaser.mp4',
+                pic: '',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
 
                     
 
@@ -1016,55 +1037,6 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2023/04/12/character-sakai/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="堺雅人 相关信息">
-                            
-                            <span class="card-title">堺雅人 相关信息</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                堺雅人本人相关信息记录，以及考古和两位兄弟的有爱互动
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E4%BA%BA%E7%89%A9%E7%9B%B8%E5%85%B3/" class="post-category">
-                                    人物相关
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/%E4%BA%BA%E7%89%A9/">
-                            <span class="chip bg-color">人物</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-              <!-- 隐藏某个文章 -->
-            
-             <!-- 隐藏某个文章 -->
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
                     <a href="/2023/04/12/resource/">
                         <div class="card-image">
                             
@@ -1103,6 +1075,55 @@
                         
                         <a href="/tags/%E8%B5%84%E6%BA%90/">
                             <span class="chip bg-color">资源</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2023/04/12/character-sakai/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="堺雅人 相关信息">
+                            
+                            <span class="card-title">堺雅人 相关信息</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                堺雅人本人相关信息记录，以及考古和两位兄弟的有爱互动
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-12
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E4%BA%BA%E7%89%A9%E7%9B%B8%E5%85%B3/" class="post-category">
+                                    人物相关
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E4%BA%BA%E7%89%A9/">
+                            <span class="chip bg-color">人物</span>
                         </a>
                         
                     </div>
