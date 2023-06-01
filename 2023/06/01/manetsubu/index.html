@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签: Vivant, Jungezi">
-    <meta name="description" content="来自中国的堺雅人粉丝">
+    <meta name="keywords" content="松坂桃李マネつぶ, Jungezi">
+    <meta name="description" content="记录松坂桃李经纪人的日记中有关VIVANT的原文，因为是付费信息所以仅供个人查看（可以尝试找到或猜出密码233）。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签: Vivant | Jungezi</title>
+    <title>松坂桃李マネつぶ | Jungezi</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
     
 
@@ -510,301 +510,655 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                SAKAIST - Jungezi
-                
-            </div>
-
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "不夸张、实事求是地去认识已然过去的时代绝非易事。对当今已然不复存在的人物不捧不踩，而是将其剪切为好的大小更是难上加难。《憧》",
-                            
-                                "最可怕的是“只着眼于能理解的部分，错误以为理解了整部内容”，以及“只着眼于不理解的部分，性急地放弃全部内容”。《服》",
-                            
-                                "或许，所谓的都市原本就是拥有那种——掐下盛开在各自家乡土地上的花并将其铺在都市的大地上——繁华盛景的地方。《家》",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 20,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    (function() {
+        let pwd = 'Jungezi';
+        if (pwd && pwd.length > 0) {
+            //if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+            if (pwd !== prompt('请输入访问本文章的密码')) {
+                alert('密码错误，将返回主页');
+                location.href = '/';
+            }
+        }
+    })();
 </script>
 
 
-    </div>
-</div>
 
-<main class="content">
 
-    
-
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
-            </div>
-            <div class="tag-chips">
-                
-                
-                <a href="/tags/%E4%BA%BA%E7%89%A9/" title="人物: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="人物" style="background-color: #F9EBEA;">人物
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E8%B5%84%E6%BA%90/" title="资源: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="资源" style="background-color: #F5EEF8;">资源
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Vivant/" title="Vivant: 5">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="Vivant" style="background-color: #D5F5E3;">Vivant
-                        <span class="tag-length">5</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E5%91%A8%E8%BE%B9/" title="周边: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="周边" style="background-color: #E8F8F5;">周边
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%8B%8D%E6%91%84/" title="拍摄: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="拍摄" style="background-color: #FEF9E7;">拍摄
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E6%97%B6%E9%97%B4%E7%BA%BF/" title="时间线: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="时间线" style="background-color: #F8F9F9;">时间线
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/%E7%9B%AE%E5%87%BB/" title="目击: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="目击" style="background-color: #82E0AA;">目击
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">松坂桃李マネつぶ</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+
+
+
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Vivant/">
+                                <span class="chip bg-color">Vivant</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%8B%8D%E6%91%84/">
+                                <span class="chip bg-color">拍摄</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Vivant/" class="post-category">
+                                Vivant
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-06-01
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2023-06-01
+                </div>
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <ul>
+<li>来源：<a target="_blank" rel="noopener" href="https://sp.tcland.jp/tori_matsuzaka/contents/manetsubu">松坂桃李マネつぶ</a></li>
+<li>Mg 不知道是谁，猜测是经纪人自己（Manager）</li>
+</ul>
+<h1 id="2023-2-27"><a href="#2023-2-27" class="headerlink" title="2023.2.27"></a>2023.2.27</h1><blockquote>
+<p>今天解禁了。<br>松坂将出演7月TBS周日剧场《VIVANT》。<br>去年，在得知此次作品的制作信息后，立刻与松坂商量。<br>虽然在几乎不知道全貌的状况下，“想试试看！”松坂身体前倾着说。<br>然后向本作品的饭田制作人推销的时候，他说：“还不知道要演什么样的角色，这样也可以吗？”<br>虽然在和松坂的年度计划中没有设想过连续剧，但是因为是很少能遇到这样的作品的机会，所以还是决定参加。</p>
+<p>2023年是在发挥之前积累的经验的同时，“重新享受”的一年。<br>我认为这是符合松坂的目标的作品。<br>虽然是7月期的作品，但由于提前拍摄，前几天已经开机了。<br>第一天，松阪对这部影片有点心慌意乱。 (笑)</p>
+<p>现在谁是松坂的敌人？还是自己人？？<br>Mg也不是很清楚。<br>每次拿到剧本的时候，我都会觉得“呵呵”“原来是这样啊”，很兴奋。<br>而且，因为是解禁前、、、和其他的角色几乎都不知道，所以在试装时得到了一张角色关联图，终于能够对每个角色有一个更具体的印象。<br>在作品播出之前，我想应该可以一点点地向大家介绍它的详细情况吧。<br>在那之前，希望大家一边想象着松坂的角色，一边期待着。</p>
+<p>首次共演的堺雅人几乎没有NG——得到了这个情报的松坂，在对峙的场景中似乎承受了很大的压力。<br>我想也许能给大家带来像新人演员一样新鲜的松坂。</p>
+</blockquote>
+ <details> <summary>原文</summary> 
+ <br>
+本日解禁となりました。<br>
+松坂が7月期TBS日曜劇場「VIVANT」に出演します。<br><br>
+昨年、今回の作品の製作情報をキャッチし<br>
+すぐさま、松坂に相談。<br>
+ほとんど全容がわからないままの状況ではありましたが、<br>
+「やってみたいです！」<br>
+と前傾姿勢でした。<br>
+そして本作品の飯田Pに売り込みに行ったところ、<br>
+「まだどんな役になるかわからないんですが<br>
+それでも良いですか？」と。<br>
+松坂との年間プランにおいて<br>
+連ドラは想定していなかったけれど、<br>
+こういう座組みの作品に出会えることもなかなか無い機会なので、<br>
+参加させていただくことにしました。<br><br>
+2023年はこれまでのキャリアで積み重ねてきたものを生かしつつ、<br>
+「楽しみ直す」一年。<br>
+そんな松坂の目標にマッチする作品だと思います。<br>
+7月期の作品ではありますが、<br>
+早撮りの為、既に先日、クランクインをしております。<br>
+初日に松坂が少しアワアワしていた作品です。笑<br><br>
+今のところ、どなたが松坂にとって敵なのか？味方なのか？？<br>
+Mgもよくわかっていません。<br>
+台本が上がってくるたびに「ほぉほぉ」「そうなるんだ」<br>
+と読んでいてワクワク。<br><br>
+そして、解禁前なので、、、と<br>
+他のキャストをほとんど知らされていなかったので<br>
+衣装合わせで人物相関図をいただき、<br>
+ようやく一人一人、<br>
+より具体なイメージを抱けるようになりました。<br>
+放送までに少しずつ作品の詳細をお伝えできるように<br>
+なっていくのかと思いますが<br>
+それまでは皆様、松坂の役どころを<br>
+あーでもない、こーでもないと想像しつつ<br>
+楽しみにお待ちいただければと思います。<br><br>
+初共演の堺雅人さんはNGをほとんど出さないらしい、<br>
+という情報をGETしてきた松坂。<br>
+対峙するシーンではかなりプレッシャーくんのようです。<br>
+新人俳優のようにフレッシュな松坂を<br>
+お届けできるかと思います。
+ </details>
+
+<br>
+
+
+  <details> <summary>原文截图</summary> 
+      <hr>
+<img src="https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/manetsubu230227.png">
+      <br> 
+  </details>
+
+
+<h1 id="2023-3-3"><a href="#2023-3-3" class="headerlink" title="2023.3.3"></a>2023.3.3</h1><ul>
+<li>在拍VIVANT</li>
+</ul>
+<h1 id="2023-5-1"><a href="#2023-5-1" class="headerlink" title="2023.5.1"></a>2023.5.1</h1><blockquote>
+<p>松坂过着非常悠闲的日子。<br>有多缓慢呢?<br>“桃李，4月不能开拍了~”<br>“啊？完全拍不了？”<br>“是啊，海外部分的场面变了很多。”<br>这是Mg和计划员在3月上旬的对话。<br>7月的《VIVANT》本应在绝赞拍摄中，但拍摄工作却意外地在4月完全中断。<br>由于《VIVANT》的故事完全没有被披露，你可能会想，究竟怎么会发生一个月没有拍摄的情况。<br>因为海外和国内拍摄部分的分开而发生了拍摄中断。<br>把这个事实告诉松坂的那天，我还以为他会很高兴呢<br>“这是以后日程安排会变紧的模式……”有了14年的工作经历，他对日程的解读也有了很大的提高。<br>是的，很遗憾，松坂的这番话一定说中了。<br>如果你能在它播出时能边想象着辛苦的拍摄一边享受的话就太好了。</p>
+</blockquote>
+ <details> <summary>原文节选</summary> 
+<br>
+松坂は、、、と言いますと
+<br>
+すこぶる緩やかな日々。
+<br>
+どのくらい緩やかなのかと申しますと、
+<br>
+「桃李さん、4月は撮影入りませんね〜」
+<br>
+「え？全く？？」
+<br>
+「そうなんですよー、海外パートの方に
+<br>
+けっこう場面が変わっちゃって、、、」
+<br>
+これ、3月上旬くらいの
+<br>
+Mgとスケジューラーさんの会話です。
+<br>
+7月期の「VIVANT」の絶賛撮影中だったはずが、
+<br>
+4月はまさかの完全撮影OFF。
+<br>
+どういう物語かも全く明かされていないVIVANTなので、
+<br>
+一体、どういうカラクリで
+<br>
+1ヶ月も撮影が入らないなんてことが生じるのか、
+<br>
+みなさまを「？？？」にさせてしまうかもしれません。
+<br>
+海外ロケと国内ロケと
+<br>
+撮影パートが分かれている為に生じたOFF。
+<br>
+この事実を松坂に伝えた日、
+<br>
+さぞや大喜びかと思いきや
+<br>
+「これ、後々、スケジュールきつくなるパターンじゃ、、、」
+<br>
+と、ちょっとトーンダウン
+<br>
+キャリア14年ともなると
+<br>
+スケジュールの読みもかなり精度を増しています。
+<br>
+そう、残念ながらこの松坂の読みは
+<br>
+きっと当たってしまうはず
+<br>
+放送が始まったら、
+<br>
+あー、この辺、大変な撮影だったんだろうなーと
+<br>
+想像しながら楽しんでいただけましたら幸いです。
+  </details>
+
+<br>
+
+  <details> <summary>原文截图</summary> 
+      <hr>
+<img src="https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/manetsubu230501.png">
+      <br> 
+  </details>
+
+
+<h1 id="2023-5-19"><a href="#2023-5-19" class="headerlink" title="2023.5.19"></a>2023.5.19</h1><blockquote>
+<p>今天松坂先生飞到某地拍摄《VIVANT》<br>是这样的晴天（见原文截图）</p>
+<p>但是，因为是气温忽上忽下的地方，调节体温是非常困难的、、<br>松坂说：“根本不觉得是一天呢~”</p>
+<p>也有一些麻烦(笑)<br>正在愉快地拍摄</p>
+</blockquote>
+<p><font size="2px">（感觉是蒙古？）</font></p>
+ <details> <summary>原文节选</summary> 
+<br>
+今日の松坂さんは
+<br>
+ある地に飛んで「VIVANT」の撮影をしております
+<br>
+こんな晴天でした
+<br>
+<br>
+ですが、気温が上がり下がりする土地なので
+<br>
+体温調節がもう大変で大変で、、
+<br>
+松坂さんは「なんか1日だと思えないね〜」とポツリ
+<br>
+<br>
+ちょこちょこトラブルもありつつ（笑）
+<br>
+楽しく撮影をしております
+  </details>
+  <br>
+  <details> <summary>原文截图</summary> 
+      <hr>
+<img src="https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/manetsubu230519.png">
+      <br> 
+  </details>
+
+
+<h1 id="2023-5-24"><a href="#2023-5-24" class="headerlink" title="2023.5.24"></a>2023.5.24</h1><blockquote>
+<p>从某个地方回来的松坂先生每天都在拍摄《VIVANT》。<br>在过去的几天里，他学会了很多词汇。<br>于是口头禅变成了“真厉害呀~”。</p>
+<p>令人沮丧的是，我完全不能告诉你这个故事是关于什么的，人物是什么样的，但它肯定会是一部壮观的作品。<br>它是如此的壮观，拍摄的时候也无法想象。</p>
+</blockquote>
+ <details> <summary>原文节选</summary> 
+ <br>
+とあるところから帰ってきた松坂さん
+ <br>
+日々「VIVANT」の撮影をしております
+ <br>
+ここ数日は色んな言葉を覚えました
+ <br>
+そして口癖が「すごいね〜」になりつつあります
+ <br>
+ <br>
+どんな物語でどんなキャラクターなのか全くお伝えできないのがもどかしいですが
+ <br>
+間違いなく壮大な画になってるはずです
+ <br>
+壮大すぎて、撮影していても想像がつきません
+  </details>
+  <br>
+  <details> <summary>原文截图</summary> 
+      <hr>
+<img src="https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/manetsubu230524.png">
+      <br> 
+  </details>
+
+
+<h1 id="2023-5-30"><a href="#2023-5-30" class="headerlink" title="2023.5.30"></a>2023.5.30</h1><ul>
+<li>在拍VIVANT</li>
+</ul>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Jungezi</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://jungezi.sakist.com/2023/06/01/manetsubu/">https://jungezi.sakist.com/2023/06/01/manetsubu/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Jungezi</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Vivant/">
+                                    <span class="chip bg-color">Vivant</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%8B%8D%E6%91%84/">
+                                    <span class="chip bg-color">拍摄</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,qq,wechat,weibo,douban" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
     
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
+    
+
+</div>
+
+                </div>
+            </div>
             
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Vivant, 拍摄" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2023/06/01/manetsubu/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="松坂桃李マネつぶ">
-                            
-                            <span class="card-title">松坂桃李マネつぶ</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2023/06/01/manetsubu/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="松坂桃李マネつぶ">
+                        
+                        <span class="card-title">松坂桃李マネつぶ</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            记录松坂桃李经纪人的日记中有关VIVANT的原文，因为是付费信息所以仅供个人查看（可以尝试找到或猜出密码233）。
+                        
+                    </div>
+                    <div class="publish-info">
                             <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2023-06-01
                             </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vivant/" class="post-category">
-                                Vivant
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Vivant/" class="post-category">
+                                    Vivant
                                 </a>
-                                
-                                
-                            </span>
-                        </div>
+                            
+                            
+                        </span>
                     </div>
                 </div>
-            </div>
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Vivant, 拍摄, 时间线" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2023/04/07/vivant-timeline/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="VIVANT 拍摄宣发时间线">
-                            
-                            <span class="card-title">VIVANT 拍摄宣发时间线</span>
-                        </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Vivant/">
+                        <span class="chip bg-color">Vivant</span>
                     </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-07
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vivant/" class="post-category">
-                                Vivant
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Vivant, 拍摄, 目击" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2023/04/06/vivant-shooting/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="VIVANT 拍摄相关">
-                            
-                            <span class="card-title">VIVANT 拍摄相关</span>
-                        </div>
+                    
+                    <a href="/tags/%E6%8B%8D%E6%91%84/">
+                        <span class="chip bg-color">拍摄</span>
                     </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-06
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vivant/" class="post-category">
-                                Vivant
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
+                    
                 </div>
+                
             </div>
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Vivant" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2023/04/06/vivant-inf/">
-                        <div class="card-image tag-image">
-                            
-                            <img src="https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/vivant_teaser0227_4.png" class="responsive-img" alt="VIVANT 剧集相关">
-                            
-                            <span class="card-title">VIVANT 剧集相关</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-06
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vivant/" class="post-category">
-                                Vivant
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="Vivant, 周边" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2023/03/17/vivant-chan/">
-                        <div class="card-image tag-image">
-                            
-                            <img src="https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/vivan_chan_inf2.jpg" class="responsive-img" alt="VIVANT酱 信息记录">
-                            
-                            <span class="card-title">VIVANT酱 信息记录</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-17
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/Vivant/" class="post-category">
-                                Vivant
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
         </div>
-    </article>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2023/04/12/character-hayami/">
+                    <div class="card-image">
+                        
+                        <img src="https://image-1308766681.cos.ap-nanjing.myqcloud.com/picgo/hayami.jpg" class="responsive-img" alt="速水晃一 相关信息">
+                        
+                        <span class="card-title">速水晃一 相关信息</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            速水晃一相关信息汇总，记录其在海堂尊原著中出现的各种情节
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-12
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E4%BA%BA%E7%89%A9%E7%9B%B8%E5%85%B3/" class="post-category">
+                                    人物相关
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E4%BA%BA%E7%89%A9/">
+                        <span class="chip bg-color">人物</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <!-- <div id="toc-aside" class="expanded col l3 hide-on-med-and-down"> -->
+    <div id="toc-aside" class="expanded col l3">
+    <!-- <div id="toc-aside"> -->
+        <!-- <div class="toc-widget card" style="background-color: white;"> -->
+        <div id="toc-widget-card" class="toc-widget card" >
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<!-- <div id="floating-toc-btn" class="hide-on-med-and-down"> -->
+<div id="floating-toc-btn" >
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('2'),
+            headingSelector: 'h1, h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+        
+
+
+        
+            
+
+
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+        
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+
+
+        if($(window).width()<993){
+            
+            $tocAside.removeClass(expandedClass).hide();
+            $mainContent.removeClass('l9');
+        }
+
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
 </main>
 
 
